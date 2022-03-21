@@ -4,7 +4,8 @@ import { Form, Col, Button } from "react-bootstrap";
 import axios from "axios";
 
 import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel";
+// import "owl.carousel/dist/owl.carousel";
+import Script from "next/script";
 
 import dynamic from "next/dynamic";
 
@@ -78,6 +79,7 @@ export default function Categories() {
   };
   return (
     <div className="d-flex flex-column">
+      <Script type="text/javascript" src="owl.carousel/dist/owl.carousel" />
       <div className="search">
         <Form>
           <Form.Group className="mb-3" as={Col} controlId="username">
