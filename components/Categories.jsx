@@ -6,9 +6,6 @@ import Image from "next/image";
 import axios from "axios";
 
 export default function Categories() {
-  axios
-    .get(`https://img.omdbapi.com/?apikey=b6069a22&s="Batman"`)
-    .then((res) => console.log(res.data));
   return (
     <div className="d-flex flex-column">
       <div className="search">
