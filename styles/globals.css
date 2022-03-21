@@ -34,6 +34,15 @@ a {
   padding: 98px 77px 0 77px;
 }
 
+.movie-poster {
+  height: 200px;
+  background: #000000;
+}
+
+.movie-poster p {
+  color: white !important;
+}
+
 .form-label {
   font-weight: 400;
   font-size: 24px !important;
